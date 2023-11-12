@@ -1,0 +1,94 @@
+.confood {
+    height: 100%;
+    color: rgb(0, 0, 0);
+    display: block;
+    margin-top: 62px;
+    scroll-behavior: smooth;
+}
+#foodsection{
+    width: 100vw;
+}
+.prc{
+    display: none;
+}
+.confood .fcont {
+    display: block;
+    font-size: 37px;
+    color: red;
+    width: 100%;
+    height: auto;
+    background: url('');
+    position: relative;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.name h3 {
+    margin: auto;
+}
+
+.Foodlist {
+    height: auto;
+    width: 100%;
+    overflow: scroll;
+    position: relative;
+    margin: 12px 0px;
+    display: flex;
+    scroll-behavior: smooth;
+}
+
+.foodit {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    background-color: rgb(207, 207, 207);
+    margin: 12px;
+    padding: 12px;
+    flex: 0 0 auto;
+    margin-bottom: 0;
+}
+
+.itemfood {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+.foodit img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.foodit .prc {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 10%;
+    border: 0.5px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    display: none;
+}
+
+h3 {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin: 6px 12px;
+}
+.prc{
+    display: none;
+}
